@@ -1,0 +1,49 @@
+{
+    "info": {
+        "description": "위급상황 음향/음성 데이터셋",
+        "url": "https://www.aihub.or.kr",
+        "version": 1.0,
+        "year": 2021,
+        "contributor": "NIA2020",
+        "date_created": "2021-02-11"
+    },
+    "license": {
+        "url": "https://www.aihub.or.kr",
+        "name": "CC 0"
+    },
+    "audio": {
+        "fileName": "1.강제추행(성범죄)_110582",
+        "fileSize": 924358,
+        "duration": 10.48,
+        "audioType": "voice",
+        "fileFormat": "wav",
+        "sampleRate": "44.1Khz",
+        "bitRate": 16,
+        "recodingType": "Mono",
+        "acquisitionType": "제작",
+        "acquisitionDevice": "갤럭시탭S6",
+        "acquisitionPlace": "실내"
+    },
+    "annotations": [
+        {
+            "audio_id": "1.강제추행(성범죄)_110582_label",
+            "area": {
+                "start": 4.0,
+                "end": 6.48
+            },
+            "categories": {
+                "category_01": "치안안전",
+                "category_02": "강제추행(성범죄)",
+                "category_03": "여_치안안전_추행을 당하는 상황_비명 소리"
+            },
+            "note": "만지지마세요",
+            "audioType": "voice",
+            "gender": "female",
+            "generation": "adult",
+            "residence": "서울",
+            "dialect": "standard",
+            "soundQuality": "정상",
+            "soundDistance": "중간"
+        }
+    ]
+}
